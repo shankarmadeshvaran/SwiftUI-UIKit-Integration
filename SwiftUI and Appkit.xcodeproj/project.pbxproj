@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		CE42E99422C4C994009CB398 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		CE4735C822B3D37D00065381 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
-		CE6FD48422B3A01F001B3E55 /* SwiftUI and Appkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI and Appkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6FD48422B3A01F001B3E55 /* SwiftUI and UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI and UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6FD48722B3A01F001B3E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6FD48922B3A01F001B3E55 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE6FD48C22B3A01F001B3E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		CE6FD48522B3A01F001B3E55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE6FD48422B3A01F001B3E55 /* SwiftUI and Appkit.app */,
+				CE6FD48422B3A01F001B3E55 /* SwiftUI and UIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			);
 			name = "SwiftUI and Appkit";
 			productName = AshokLearningList;
-			productReference = CE6FD48422B3A01F001B3E55 /* SwiftUI and Appkit.app */;
+			productReference = CE6FD48422B3A01F001B3E55 /* SwiftUI and UIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = Heptagon;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					CE6FD48322B3A01F001B3E55 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -312,7 +312,7 @@
 				);
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.heptagon.SwiftUIandAppkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI and UIKit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -332,7 +332,7 @@
 				);
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.heptagon.SwiftUIandAppkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI and UIKit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

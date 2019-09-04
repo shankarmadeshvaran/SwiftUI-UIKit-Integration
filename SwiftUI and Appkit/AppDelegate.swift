@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  AshokLearningList
-//
-//  Created by User on 14/06/19.
-//  Copyright © 2019 Heptagon. All rights reserved.
-//
+
 
 import UIKit
 
