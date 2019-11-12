@@ -1,4 +1,6 @@
 
+#if canImport(SwiftUI) && DEBUG
+
 import SwiftUI
 import Combine
 
@@ -12,6 +14,13 @@ struct PictureView : View {
         NavigationView {
             ImageViewContainer(imageURL: imageURL ?? "")
         }.navigationBarTitle(Text(receivedString ?? ""), displayMode: .inline)
+    }
+}
+
+@available(iOS 13.0, *)
+struct PictureView_Preview: PreviewProvider {
+    static var previews: some View {
+        PictureView(imageURL: "https://image.shutterstock.com/image-photo/country-road-450w-628141070.jpg", receivedString: "From Preview")
     }
 }
 
@@ -56,3 +65,5 @@ class RemoteImageURL: ObservableObject {
         }.resume()
     }
 }
+
+#endif

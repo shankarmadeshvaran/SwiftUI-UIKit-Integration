@@ -1,5 +1,7 @@
 
 import UIKit
+
+#if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
 class PictureViewController: UIViewController {
@@ -30,23 +32,20 @@ extension UIImageView {
     }
 }
 
-// To get Preview for PictureViewController
-@available(iOS 13.0, *)
-struct PictureViewControllerRepresentable: UIViewControllerRepresentable {
-
-    func makeUIViewController(context: UIViewControllerRepresentableContext<PictureViewControllerRepresentable>) -> PictureViewController {
-        return PictureViewController()
+struct PictureViewRepresentable: UIViewRepresentable {
+    func makeUIView(context: Context) -> UIView {
+        return UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "Picture").view
     }
-
-    func updateUIViewController(_ uiViewController: PictureViewController, context: UIViewControllerRepresentableContext<PictureViewControllerRepresentable>) {
-        // code to update your ViewController
-        //use static ImageUrl to display image in previews
+    
+    func updateUIView(_ view: UIView, context: Context) {
+        //update your code here
     }
 }
 
 @available(iOS 13.0, *)
-struct PictureViewControllerPreview: PreviewProvider {
-    static var previews: PictureViewControllerRepresentable {
-        PictureViewControllerRepresentable()
+struct PictureViewController_Preview: PreviewProvider {
+    static var previews: some View {
+        PictureViewRepresentable()
     }
 }
+#endif

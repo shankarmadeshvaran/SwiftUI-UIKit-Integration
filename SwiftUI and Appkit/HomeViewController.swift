@@ -1,5 +1,7 @@
 
 import UIKit
+
+#if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
 class HomeViewController: UITableViewController {
@@ -45,22 +47,20 @@ class HomeViewController: UITableViewController {
     }
 }
 
-// To get Preview for HomeViewController
-@available(iOS 13.0, *)
-struct HomeViewControllerRepresentable: UIViewControllerRepresentable {
-
-    func makeUIViewController(context: UIViewControllerRepresentableContext<HomeViewControllerRepresentable>) -> HomeViewController {
-        return HomeViewController()
+struct HomeViewRepresentable: UIViewRepresentable {
+    func makeUIView(context: Context) -> UIView {
+        return UIStoryboard(name: "Main", bundle: Bundle.main).instantiateInitialViewController()!.view
     }
-
-    func updateUIViewController(_ uiViewController: HomeViewController, context: UIViewControllerRepresentableContext<HomeViewControllerRepresentable>) {
-        // code to update your ViewController
+    
+    func updateUIView(_ view: UIView, context: Context) {
+        
     }
 }
 
 @available(iOS 13.0, *)
-struct HomeViewControllerPreview: PreviewProvider {
-    static var previews: HomeViewControllerRepresentable {
-        HomeViewControllerRepresentable()
+struct HomeViewController_Preview: PreviewProvider {
+    static var previews: some View {
+        HomeViewRepresentable()
     }
 }
+#endif
