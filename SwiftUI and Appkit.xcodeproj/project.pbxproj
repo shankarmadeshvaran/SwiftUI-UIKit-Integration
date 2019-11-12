@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9314F63237ABECD00C679D9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9314F62237ABECD00C679D9 /* SwiftUIView.swift */; };
 		CE42E99922C4CA0B009CB398 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE42E99422C4C994009CB398 /* SwiftUI.framework */; };
 		CE4735C922B3D37D00065381 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4735C822B3D37D00065381 /* PictureViewController.swift */; };
 		CE6FD48822B3A01F001B3E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FD48722B3A01F001B3E55 /* AppDelegate.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A9314F62237ABECD00C679D9 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		CE42E99422C4C994009CB398 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		CE4735C822B3D37D00065381 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		CE6FD48422B3A01F001B3E55 /* SwiftUI and UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI and UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +74,6 @@
 				CE6FD48922B3A01F001B3E55 /* HomeViewController.swift */,
 				CE4735C822B3D37D00065381 /* PictureViewController.swift */,
 				CE7333F322B3D689007AB332 /* PictureView.swift */,
-				A9314F62237ABECD00C679D9 /* SwiftUIView.swift */,
 				CE6FD48B22B3A01F001B3E55 /* Main.storyboard */,
 				CE6FD48E22B3A026001B3E55 /* Assets.xcassets */,
 				CE6FD49022B3A026001B3E55 /* LaunchScreen.storyboard */,
@@ -160,7 +157,6 @@
 				CE4735C922B3D37D00065381 /* PictureViewController.swift in Sources */,
 				CE6FD48822B3A01F001B3E55 /* AppDelegate.swift in Sources */,
 				CE7333F422B3D689007AB332 /* PictureView.swift in Sources */,
-				A9314F63237ABECD00C679D9 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UQ634A2945;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftUI and Appkit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.heptagon.SwiftUIandAppkit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shankar.SwiftUIandAppkit;
 				PRODUCT_NAME = "SwiftUI and UIKit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -329,7 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UQ634A2945;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftUI and Appkit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.heptagon.SwiftUIandAppkit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shankar.SwiftUIandAppkit;
 				PRODUCT_NAME = "SwiftUI and UIKit";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
