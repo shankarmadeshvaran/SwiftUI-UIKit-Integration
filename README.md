@@ -2,7 +2,7 @@
 I have created a simple project explaining how to integrate SwiftUI into UIKit and also implemented how to download remote image from url using URLSession and explaining how to use them in swiftUI.I have also implemented how to bring previews for UIKit's View controllers. 
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/SwiftUI-UIKit-Integration/blob/master/ScreenShots/SwiftUI-UIKit.jpg" width="50%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/SwiftUI-UIKit-Integration/blob/master/ScreenShots/SwiftUI-UIKit.jpg" width="100%" height="100%"/>
 </p>
 
 ## Concepts
